@@ -62,6 +62,18 @@ public class AlternatingSum
 	public static String reduce(String str)
 	{
 		String reduced = "";
+		boolean spaces = true;
+		while (spaces)
+		{
+			if (str.charAt(0) == ' '	)
+			{
+				str = str.substring(1);
+			}
+			else
+			{
+				spaces = false;
+			}
+		}
 		for (int i = 0; i < str.length(); i++) 
 		{
 			if (str.charAt(i) != ' ' || i == str.length() - 1 
