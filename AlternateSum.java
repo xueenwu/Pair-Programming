@@ -5,11 +5,14 @@ public class AlternateSum
 	public static void main(String[] args)
 	{
 		Scanner sc = new Scanner(System.in);
-		int[] numbers = new int[0];
-		int nextInt = sc.nextInt();
-		numbers = new int[1];
-		numbers[0] = nextInt;
-		sc.close();
+		int[] nums = new int[0];
+		int[] current = new int[0];
+		boolean yet = false;
+		int hello = 0;
+		while (!yet)
+		{
+			nums = new;
+		}
 	}
 	
 	public static int alternateSum(int[] intArray)
